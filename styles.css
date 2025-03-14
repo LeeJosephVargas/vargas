@@ -1,0 +1,157 @@
+nav {
+    background-color: #7c0000;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+body {
+  
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 50px;
+   
+}
+
+header {
+    background-color: #ffffff;
+    .text {
+    color: red;
+    }
+}
+
+.product img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.highlights {
+    text-align: center;
+    padding: 40px 20px;
+    background-image: url(bg.png);
+    color: white;
+}
+
+.highlights h2 {
+    font-size: 2em;
+    color: red;
+}
+
+.highlight-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.highlight {
+     padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.highlight img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.red-text {
+    color: red;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+.reviews {
+    text-align: center;
+    padding: 40px;
+    background-color: #111;
+    color: white;
+}
+
+.reviews h2 {
+    font-size: 2em;
+    color: red;
+    margin-bottom: 20px;
+}
+.review-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.review-container img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.review-text {
+    text-align: left;
+    width: 60%;
+}
+
+.review-container h3 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.review-container p {
+    color: black;
+}
+section {
+    background: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
